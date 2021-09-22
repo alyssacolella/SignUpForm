@@ -39,7 +39,7 @@ class FormActivity : AppCompatActivity() {
 
             //make sure the password and password confirmation match
             else if(!password.text.toString().equals(passwordCheck.text.toString())) {
-                Toast.makeText(this@FormActivity, "Please make sure password and password confirmation match.", Toast.LENGTH_LONG).show()
+                passwordCheck.error =  "Please make sure password and password confirmation match."
             }
 
             //no black fields, passwords match
