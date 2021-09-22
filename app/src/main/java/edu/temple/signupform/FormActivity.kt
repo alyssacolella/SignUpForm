@@ -44,7 +44,7 @@ class FormActivity : AppCompatActivity() {
 
             //no black fields, passwords match
             else {
-                Toast.makeText(this@FormActivity, "Welcome, " + name.text + " to the SignUpForm App!", Toast.LENGTH_LONG).show()
+                Toast.makeText(this@FormActivity, "Welcome to the SignUpForm App, " + name.text + "!", Toast.LENGTH_LONG).show()
             }
         }
     }
